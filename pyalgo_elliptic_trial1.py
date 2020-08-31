@@ -33,6 +33,7 @@ def main():
     #nPhotons, sigma, lx, ly, lz, seed#{lx, ly, lz} defines light position, seed is optional
     #b is the scattering length
     y = 20
+    r = 40
     a_list =[]
     efficiency_list =[]
     for j in range(len(b)):
