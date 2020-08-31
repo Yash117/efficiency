@@ -30,9 +30,9 @@ def main():
     #use default photon generator - currently implements a point light source
     #implement a modified version in CUDA code if you want to modify the light source
     #Parameters are
-    #nPhotons, sigma, lx, ly, lz, seed
-    #{lx, ly, lz} defines light position, seed is optional
+    #nPhotons, sigma, lx, ly, lz, seed#{lx, ly, lz} defines light position, seed is optional
     #b is the scattering length
+    y = 20
     a_list =[]
     efficiency_list =[]
     for j in range(len(b)):
